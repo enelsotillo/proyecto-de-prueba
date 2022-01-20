@@ -1,0 +1,119 @@
+{
+  "id": "a357cf12-9d78-4a8e-a430-406479f0a02d",
+  "version": "2.0",
+  "name": "CHM_CREATEUSER_001",
+  "url": "https://www.cinemarkhoyts.com.ar",
+  "tests": [{
+    "id": "ddd70dd7-55a2-4439-b763-4c805bcf453d",
+    "name": "CHM_CREATEUSER_001 CREACION DE USUATIO CON FACEBOOK",
+    "commands": [{
+      "id": "3bd87e0a-8111-463e-b5f1-aa784a5df6d4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1a93b60-2607-4fac-ae63-4c3bf8ec47b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db252bf7-098d-41fd-96fd-e2b1fab45455",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_img_user",
+      "targets": [
+        ["id=id_img_user", "id"],
+        ["css=#id_img_user", "css:finder"],
+        ["xpath=//img[@id='id_img_user']", "xpath:attributes"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "523c9b50-39a9-4d4c-8a60-a1b85b7549ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.img-responsive",
+      "targets": [
+        ["css=.img-responsive", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eab7166-0fba-4fc1-a78e-d72dc41f92c3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.img-responsive",
+      "targets": [
+        ["css=.img-responsive", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c617202-a0e3-428f-bae8-2fc0e456f6d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ch-login-reg-fb > img",
+      "targets": [
+        ["css=.ch-login-reg-fb > img", "css:finder"],
+        ["xpath=//img[@alt='Ingresar con Facebook']", "xpath:img"],
+        ["xpath=//form[@id='logiform']/div[3]/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b52697-5fa9-4e16-b31b-8401eb02baf3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CREAR CUENTA",
+      "targets": [
+        ["linkText=CREAR CUENTA", "linkText"],
+        ["css=.ch-login-btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CREAR CUENTA')]", "xpath:link"],
+        ["xpath=//form[@id='logiform']/div[3]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tickets.cinemarkhoyts.com.ar/NSTicketing/nsCreateMember.aspx')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CREAR CUENTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76beb860-2913-4439-98bf-7bdeeb3ea5d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link",
+      "targets": [
+        ["css=.link", "css:finder"],
+        ["xpath=//img[@alt='Registrate con Facebook']", "xpath:img"],
+        ["xpath=//img[@onclick='FbkSdkHelper.FbkLoginWithScope(nsCreateMember.FbkLoginWithScopeCallback,nsCreateMember.FbkLoginFields,nsCreateMember.FbkLoginScope);']", "xpath:attributes"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2219",
+      "windowTimeout": 2000
+    }, {
+      "id": "764e9a6a-93d4-443a-a2c5-4d27038d0de8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2219}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dac8fa4e-efd0-434c-9fe4-c7fd40393331",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ddd70dd7-55a2-4439-b763-4c805bcf453d"]
+  }],
+  "urls": ["https://www.cinemarkhoyts.com.ar/"],
+  "plugins": []
+}

@@ -1,0 +1,105 @@
+{
+  "id": "e2991abd-2dce-497c-8cae-dfc11f9b98a9",
+  "version": "2.0",
+  "name": "Cinemark TP3",
+  "url": "https://www.cinemarkhoyts.com.ar",
+  "tests": [{
+    "id": "2507a6ef-d57d-460f-bd3e-2b4e70a96f74",
+    "name": "olvido de clave",
+    "commands": [{
+      "id": "d43b5308-6ac8-4f5b-bccf-64f2a7b00cdc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84defe43-8b98-436e-8e58-5995f7ca7b67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "050dca58-c97a-4333-b667-dc31f517e73e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_img_user",
+      "targets": [
+        ["id=id_img_user", "id"],
+        ["css=#id_img_user", "css:finder"],
+        ["xpath=//img[@id='id_img_user']", "xpath:attributes"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa75a7ee-750b-4b3b-95a3-67931dc63982",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OLVIDÉ MI CONTRASEÑA",
+      "targets": [
+        ["linkText=OLVIDÉ MI CONTRASEÑA", "linkText"],
+        ["css=.txt-center > a", "css:finder"],
+        ["xpath=//a[contains(text(),'OLVIDÉ MI CONTRASEÑA')]", "xpath:link"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tickets.cinemarkhoyts.com.ar/NSTicketing/nsReminderPassword.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OLVIDÉ MI CONTRASEÑA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2325f480-cd42-40b0-8e69-d3d14980c95d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl01_txtInput",
+      "targets": [
+        ["id=ctl01_txtInput", "id"],
+        ["name=ctl01$txtInput", "name"],
+        ["css=#ctl01_txtInput", "css:finder"],
+        ["xpath=//input[@id='ctl01_txtInput']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl01_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a765c78c-40bf-4cb4-b656-58ed32bf8dd7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl01_txtInput",
+      "targets": [
+        ["id=ctl01_txtInput", "id"],
+        ["name=ctl01$txtInput", "name"],
+        ["css=#ctl01_txtInput", "css:finder"],
+        ["xpath=//input[@id='ctl01_txtInput']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl01_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "cinemarkhoyts63@gmail.com"
+    }, {
+      "id": "424f53cf-5eae-492d-a46f-d2eef539977b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnReminderPassword",
+      "targets": [
+        ["id=btnReminderPassword", "id"],
+        ["name=btnReminderPassword", "name"],
+        ["css=#btnReminderPassword", "css:finder"],
+        ["xpath=//input[@id='btnReminderPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='reminderPasswordForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "74474930-909e-412d-9f0e-6db3b1d622b0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2507a6ef-d57d-460f-bd3e-2b4e70a96f74"]
+  }],
+  "urls": ["https://www.cinemarkhoyts.com.ar/"],
+  "plugins": []
+}

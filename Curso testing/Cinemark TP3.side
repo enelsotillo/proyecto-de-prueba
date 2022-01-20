@@ -1,0 +1,174 @@
+{
+  "id": "6916b39e-11f2-4738-9aa3-98cd8fd6a145",
+  "version": "2.0",
+  "name": "Cinemark TP3",
+  "url": "https://www.cinemarkhoyts.com.ar",
+  "tests": [{
+    "id": "e65286c8-69c9-4f71-b00d-f68a4eaba380",
+    "name": "Cinemark TP3",
+    "commands": [{
+      "id": "91a334ca-ad76-46b3-9f71-1409a060a61a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59d87e3d-dcbf-47bf-aef1-45ecf0531274",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "101ba062-a407-4c40-97ee-8beb92464839",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_img_user",
+      "targets": [
+        ["id=id_img_user", "id"],
+        ["css=#id_img_user", "css:finder"],
+        ["xpath=//img[@id='id_img_user']", "xpath:attributes"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0ccaa9-2909-4ab7-bd58-c367110c2c05",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolderBody_txtEmailAddress",
+      "targets": [
+        ["id=ContentPlaceHolderBody_txtEmailAddress", "id"],
+        ["name=ctl00$ContentPlaceHolderBody$txtEmailAddress", "name"],
+        ["css=#ContentPlaceHolderBody_txtEmailAddress", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolderBody_txtEmailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4483d7f-0221-4483-b07d-2dc0ad9e4846",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolderBody_txtEmailAddress",
+      "targets": [
+        ["id=ContentPlaceHolderBody_txtEmailAddress", "id"],
+        ["name=ctl00$ContentPlaceHolderBody$txtEmailAddress", "name"],
+        ["css=#ContentPlaceHolderBody_txtEmailAddress", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolderBody_txtEmailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "cinemarkhoyts63@gmail.com"
+    }, {
+      "id": "53dccc2c-1fd9-4df5-82df-22ceb74249b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolderBody_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolderBody_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolderBody$txtPassword", "name"],
+        ["css=#ContentPlaceHolderBody_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolderBody_txtPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a595e82-a138-453e-971b-9bd8a194f4c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolderBody_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolderBody_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolderBody$txtPassword", "name"],
+        ["css=#ContentPlaceHolderBody_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolderBody_txtPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "admin-1234"
+    }, {
+      "id": "5f881397-6550-4dfd-9be3-27cff42218ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolderBody_btnLogin",
+      "targets": [
+        ["id=ContentPlaceHolderBody_btnLogin", "id"],
+        ["name=ctl00$ContentPlaceHolderBody$btnLogin", "name"],
+        ["css=#ContentPlaceHolderBody_btnLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolderBody_btnLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='logiform']/div[3]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a5d7c9-a546-4482-882b-d44257191ffd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PELÍCULAS",
+      "targets": [
+        ["linkText=PELÍCULAS", "linkText"],
+        ["css=.nav-item_active", "css:finder"],
+        ["xpath=//a[contains(text(),'PELÍCULAS')]", "xpath:link"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'PELÍCULAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6afac069-ca2a-42bd-bc8c-ff68db23e3b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CANDY",
+      "targets": [
+        ["linkText=CANDY", "linkText"],
+        ["css=.nav-item_active", "css:finder"],
+        ["xpath=//a[contains(text(),'CANDY')]", "xpath:link"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'CANDY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0cd32f2-0ea4-457e-bd79-572ebe197c36",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_img_user",
+      "targets": [
+        ["id=id_img_user", "id"],
+        ["css=#id_img_user", "css:finder"],
+        ["xpath=//img[@id='id_img_user']", "xpath:attributes"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b69929f-8348-41c1-9ce7-c4bc80cb10a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CERRAR SESIÓN",
+      "targets": [
+        ["linkText=CERRAR SESIÓN", "linkText"],
+        ["css=.nav-menu-user > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'CERRAR SESIÓN')]", "xpath:link"],
+        ["xpath=//div[@id='panelNavbar']/header/nav/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nsLogout.aspx')]", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'CERRAR SESIÓN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7001c8df-b275-4c01-a8c6-0c8c3e8ea311",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.cinemarkhoyts.com.ar/"],
+  "plugins": []
+}
